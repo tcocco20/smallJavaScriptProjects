@@ -4,13 +4,29 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>untitled</title>
+<title>Form Input Wave</title>
 <!-- <link rel="stylesheet" href="./css/all.min.css" /> -->
 <link rel="stylesheet" href="./css/bootstrap.min.css" />
 <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body class="d-flex flex-column justify-content-center align-items-center m-0">
+  <div class="container w-25 bg-secondary p-4 text-center">
+    <h1 class="h3 mb-4">Please Login</h1>
+    <form>
+      <div class="form-control mb-3">
+        <input type="text" required>
+        <label>Email</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+
+      <button class="btn w-100">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#">Register</a></p>
+  </div>
   <script src="./js/all.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/index.js"></script>
